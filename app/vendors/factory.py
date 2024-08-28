@@ -1,0 +1,3 @@
+
+class VendorFactory:
+   pass

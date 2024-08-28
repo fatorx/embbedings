@@ -1,0 +1,6 @@
+curl "https://generativelanguage.googleapis.com/v1beta/models/text-embedding-004:embedContent?key=AIzaSyDyx92jDM-Et5kk4B4W0dyzes_pN3JmM4o" \
+-H 'Content-Type: application/json' \
+-d '{"model": "models/text-embedding-004",
+     "content": {
+     "parts":[{
+     "text": "Hello world"}]}, }' 2> /dev/null | head
